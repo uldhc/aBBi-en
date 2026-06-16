@@ -44,6 +44,7 @@ export class AppComponent implements OnInit {
   settings = inject(SettingsService);
 
   addingImages = signal<boolean>(false);
+  currentStepIndex = signal<number>(0);
   apiKeyFormGroup!: FormGroup;
   appVersion = APP_VERSION;
 
