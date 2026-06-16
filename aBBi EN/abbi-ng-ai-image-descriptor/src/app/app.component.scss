@@ -91,3 +91,26 @@ mat-stepper {
   font-size: 1.1rem;
   font-weight: 500;
 }
+
+.app-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.app-title-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.app-title-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title-text h1,
+.app-title-text p {
+  margin: 0;
+}
