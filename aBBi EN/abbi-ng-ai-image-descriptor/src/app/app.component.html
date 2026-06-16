@@ -42,7 +42,7 @@
       </div>
     </section>
 
-    <mat-stepper [orientation]="(stepperOrientation | async)!" [linear]="true" #stepper>
+    <mat-stepper [orientation]="(stepperOrientation | async)!" [linear]="true" #stepper (selectionChange)="currentStepIndex.set($event.selectedIndex)">
       <!-- Step 1: Configure settings -->
       <mat-step label="Configure settings">
         <h2>Configure settings</h2>
