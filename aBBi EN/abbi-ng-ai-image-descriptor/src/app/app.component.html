@@ -1,7 +1,7 @@
 @let taskNoun = settings.taskNouns();
 
 <div class="content-wrapper">
-  <app-header></app-header>
+  <app-header [showLanguageButton]="currentStepIndex() === 0"></app-header>
 
   <header class="app-title">
     <h1>ABBi</h1>
