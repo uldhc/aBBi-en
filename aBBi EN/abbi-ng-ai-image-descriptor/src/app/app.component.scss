@@ -80,7 +80,7 @@ mat-stepper {
   gap: 0.45rem;
   width: 100%;
 
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .app-title h1 {
@@ -105,12 +105,12 @@ mat-stepper {
 .app-title-text-side {
   display: flex;
   justify-content: flex-start;
-  padding-left: 0.4rem;
+  padding-left: 0.1rem;
 }
 .app-title-logo-side {
   display: flex;
   justify-content: flex-end;
-  padding-right: 0.4rem;
+  padding-right: 0.1rem;
 }
 
 .app-title-main {
@@ -126,7 +126,7 @@ mat-stepper {
   width: 76px;
   height: 76px;
   object-fit: contain;
-  margin-right: 0.4rem;
+  margin-right: -1.5rem;
 }
 
 .app-title h1,
